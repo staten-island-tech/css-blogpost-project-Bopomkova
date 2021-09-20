@@ -1,0 +1,14 @@
+body {
+  background-color: blue;
+  color: gray;
+  font-size: 40px;
+}
+h6 {
+  color: green;
+}
+.main-header {
+  color: red;
+}
+#notid {
+  color: indigo;
+}
