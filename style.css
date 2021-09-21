@@ -1,14 +1,13 @@
 body {
   background-color: blue;
-  color: gray;
+  color: black;
   font-size: 40px;
 }
-h6 {
-  color: green;
-}
 .main-header {
-  color: red;
-}
-#notid {
-  color: indigo;
+  background-color: lightblue;
+  width: 100vw;
+  padding: 10px;
+  margin: -20px;
+  border: 3px solid purple;
+  text-align: center;
 }
