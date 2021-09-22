@@ -1,13 +1,21 @@
 body {
-  background-color: blue;
+  background-color: white;
   color: black;
   font-size: 40px;
+  font-family: "Stick No Bills", sans-serif;
+  /* fonts.google.com for fonts */
 }
-.main-header {
-  background-color: lightblue;
-  width: 100vw;
-  padding: 10px;
-  margin: -20px;
-  border: 3px solid purple;
-  text-align: center;
+.parent {
+  border: 5px solid red;
+  height: 500px;
+  width: 500px;
+  position: relative;
+  margin: 200px;
+}
+.child {
+  border: 3px solid green;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
