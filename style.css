@@ -2,20 +2,17 @@ body {
   background-color: white;
   color: black;
   font-size: 40px;
-  font-family: "Stick No Bills", sans-serif;
   /* fonts.google.com for fonts */
 }
-.parent {
-  border: 5px solid red;
-  height: 500px;
-  width: 500px;
-  position: relative;
-  margin: 200px;
+.header {
+  background-color: #0288d1;
+  text-align: center;
+  border: 0px solid #4caf50;
 }
-.child {
-  border: 3px solid green;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.trending-title {
+  text-align: center;
+}
+.trending-blog {
+  text-align: center;
+  background-color: 757575;
 }
