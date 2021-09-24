@@ -1,18 +1,28 @@
 body {
-  background-color: white;
+  background-color: #00bcd4;
   color: black;
   font-size: 40px;
   /* fonts.google.com for fonts */
+  font-family: "Oswald", sans-serif;
 }
 .header {
-  background-color: #0288d1;
+  background-color: #0097a7;
   text-align: center;
-  border: 0px solid #4caf50;
+  margin: 20px;
+  font-weight: 900;
+  font-size: 45px;
+  color: #ffffff;
 }
 .trending-title {
   text-align: center;
+  margin: -20px;
+  font-weight: bold;
 }
 .trending-blog {
   text-align: center;
-  background-color: 757575;
+  background-color: #0097a7;
+  width: 45vw;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
 }
