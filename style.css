@@ -1,28 +1,38 @@
 body {
-  background-color: #00bcd4;
+  background-color: #0097a7;
   color: black;
   font-size: 40px;
   /* fonts.google.com for fonts */
   font-family: "Oswald", sans-serif;
 }
 .header {
-  background-color: #0097a7;
+  background-color: #00bcd4;
   text-align: center;
   margin: 20px;
   font-weight: 900;
   font-size: 45px;
   color: #ffffff;
 }
-.trending-title {
+.header-trending {
   text-align: center;
   margin: -20px;
   font-weight: bold;
+  background-color: #00bcd4;
 }
 .trending-blog {
   text-align: center;
-  background-color: #0097a7;
+  background-color: #00bcd4;
   width: 45vw;
   position: relative;
   left: 50%;
   transform: translate(-50%);
+}
+#trending-blog-img {
+  width: 40vw;
+  position: relative;
+  margin: -50px 0px 0px 0px;
+}
+#trending-blog-preview {
+  font-size: 20px;
+  margin: 20px;
 }
