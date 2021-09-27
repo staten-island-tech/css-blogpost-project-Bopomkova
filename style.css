@@ -6,18 +6,18 @@ body {
   font-family: "Oswald", sans-serif;
 }
 .header {
-  background-color: #00bcd4;
   text-align: center;
+  background-color: #00bcd4;
   margin: 20px;
+}
+#header-main {
+  padding: 20px;
   font-weight: 900;
-  font-size: 45px;
+  font-size: 100px;
   color: #ffffff;
 }
-.header-trending {
-  text-align: center;
-  margin: -20px;
+#header-trending {
   font-weight: bold;
-  background-color: #00bcd4;
 }
 .trending-blog {
   text-align: center;
