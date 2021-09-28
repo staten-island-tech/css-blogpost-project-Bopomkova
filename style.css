@@ -1,5 +1,5 @@
 body {
-  background-color: #0097a7;
+  background-color: #03a9f4;
   color: black;
   font-size: 40px;
   /* fonts.google.com for fonts */
@@ -7,7 +7,7 @@ body {
 }
 .header {
   text-align: center;
-  background-color: #00bcd4;
+  background-color: #0288d1;
   margin: 20px;
 }
 #header-main {
@@ -21,11 +21,22 @@ body {
 }
 .trending-blog {
   text-align: center;
-  background-color: #00bcd4;
+  background-color: #0288d1;
   width: 45vw;
   position: relative;
   left: 50%;
   transform: translate(-50%);
+  height: 500px;
+}
+#trending-blog-2 {
+  height: 565px;
+}
+#trending-blog-3 {
+  height: 530px;
+}
+#trending-blog-title {
+  border: solid #448aff 3px;
+  background-color: #b3e5fc;
 }
 #trending-blog-img {
   width: 40vw;
@@ -35,4 +46,11 @@ body {
 #trending-blog-preview {
   font-size: 20px;
   margin: 20px;
+  border: solid #448aff 3px;
+  background-color: #b3e5fc;
 }
+#footer {
+  color: #757575;
+  font-size: 16px;
+}
+/* #b3e5fc #448aff */
